@@ -88,6 +88,7 @@ h2 span {
 /* header area strate  */
 .navbar__bg {
   padding: 0;
+  position: relative;
 }
 
 .active {
@@ -175,7 +176,7 @@ li {
 .nav__bg {
   position: absolute;
   top: 0;
-  right: -1rem;
+  right: -5rem;
   width: 40%;
   height: 85rem;
   background-image: url("../img/banner-bg.png");
@@ -340,7 +341,7 @@ li {
 /*main carousel section */
 footer {
   margin-top: 18rem;
-  padding-top: 35rem;
+  padding-top: 25rem;
   width: 100%;
   background: url(../img/footer-bg.png);
   background-repeat: no-repeat;
