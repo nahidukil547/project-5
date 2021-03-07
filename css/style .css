@@ -176,7 +176,7 @@ li {
 .nav__bg {
   position: absolute;
   top: 0;
-  right: -5rem;
+  right: 0;
   width: 40%;
   height: 85rem;
   background-image: url("../img/banner-bg.png");
@@ -193,8 +193,14 @@ li {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: url(
+    '../img/left-bg-decor.png'
+  );
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
 .main__area .header__text h1 {
@@ -236,6 +242,10 @@ li {
 
 .main__footer__section {
   margin-top: 20rem;
+  background: url('../img/right-bg-decor.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
 .circle__img {
@@ -250,7 +260,7 @@ li {
   margin: 3rem 0rem;
 }
 
-.main__footer__options .main__footer__img {
+.main__footer__img {
   width: 8rem;
   height: 8rem;
   margin: 0rem 3rem;
@@ -268,6 +278,7 @@ li {
 .carousel__section__text {
   text-align: center;
   padding: 20rem 0rem 10rem 0;
+  
 }
 
 .item__body {
@@ -366,7 +377,7 @@ footer {
   margin: 10rem 0 2rem 0;
   left: 50%;
   -webkit-transform: translateX(100%);
-          transform: translateX(100%);
+  transform: translateX(100%);
   background: var(--gradient__one);
 }
 
