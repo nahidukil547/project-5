@@ -175,7 +175,7 @@ li {
 .nav__bg {
   position: absolute;
   top: 0;
-  right: .1rem;
+  right: -1rem;
   width: 40%;
   height: 85rem;
   background-image: url("../img/banner-bg.png");
